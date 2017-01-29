@@ -16,3 +16,5 @@ A base structure of some project.
 4. 写上 demo
 
 5. 增加构建脚本，完善工程
+
+6. 卖萌～～
