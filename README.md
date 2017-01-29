@@ -7,7 +7,7 @@ A base structure of some project.
 
 ## dev steps
 
-1. 确定所选用框架
+1. 确定所选用框架  requirejs + zepto
 
 2. 确定文件夹层次结构
 
@@ -17,4 +17,4 @@ A base structure of some project.
 
 5. 增加构建脚本，完善工程
 
-6. 卖萌～～
+6. 职业卖萌～～分钱～～(冰清大神，带我飞)
