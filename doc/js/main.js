@@ -8,12 +8,17 @@ require.config({
     baseUrl: './',
 
     paths: {
-        jquery: 'http://cdn.bootcss.com/jquery/3.1.1/jquery.js',
+        zepto: 'http://cdn.bootcss.com/zepto/1.2.0/zepto',
+    },
+    shim: {
+        'zepto': {
+            exports: 'zepto'
+        }
     }
 });
 
-require([], function() {
+require(['zepto'], function(zepto) {
     setTimeout(function() {
-        document.querySelector('body').innerText = 'vivi love & ready.';
+        $('body').html('<span>我要开始咯，虽然不知道要开始干嘛(◍ ´꒳` ◍)<span>');
     });
 });
