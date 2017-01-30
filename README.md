@@ -18,3 +18,5 @@ A base structure of some project.
 5. 增加构建脚本，完善工程
 
 6. 职业卖萌～～分钱～～(冰清大神，带我飞)
+
+7. 和子薇一起。vivi
