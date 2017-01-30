@@ -5,10 +5,10 @@
  */
 
 require.config({
-    baseUrl: './',
+    baseUrl: '../',
 
     paths: {
-        zepto: 'http://cdn.bootcss.com/zepto/1.2.0/zepto',
+        zepto: 'js/libs/zepto',
     },
     shim: {
         'zepto': {
