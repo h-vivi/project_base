@@ -13,5 +13,7 @@ require.config({
 });
 
 require([ ], function() {
-    alert('vivi love');
+    setTimeout(function() {
+        document.querySelector('body').innerText = 'vivi love & ready.';
+    });
 });
