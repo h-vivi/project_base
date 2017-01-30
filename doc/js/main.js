@@ -17,7 +17,7 @@ var href = location.href;
 // get controller name
 var controllerName = href.slice(href.lastIndexOf('/') + 1, href.lastIndexOf('.'));
 // get controller path
-var controllerPath = 'js/controller/' + controllerName + '-ctrl.js';
+var controllerPath = '../js/controller/' + controllerName + '-ctrl.js';
 
 require([ 'zepto' ], function(zepto) {
     require([ controllerPath ], function(ctrl) {
@@ -26,3 +26,7 @@ require([ 'zepto' ], function(zepto) {
         });
     });
 });
+
+require.onError = function(err) {
+    console.error(err);
+}
