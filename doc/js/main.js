@@ -19,7 +19,7 @@ var controllerName = href.slice(href.lastIndexOf('/') + 1, href.lastIndexOf('.')
 // get controller path
 var controllerPath = '../js/controller/' + controllerName + '.js';
 
-require([ 'zepto' ], function(zepto) {
+require([ 'zepto' ], function($) {
     require([ controllerPath ], function(ctrl) {
         console.log('controller is', ctrl);
         console.log('controller exec result is', ctrl());
