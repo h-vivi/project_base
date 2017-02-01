@@ -24,7 +24,7 @@ require([ 'zepto' ], function(zepto) {
         console.log('controller is', ctrl);
         console.log('controller exec result is', ctrl());
         setTimeout(function() {
-            $('body').html('<span>我要开始咯，虽然不知道要开始干嘛(◍ ´꒳` ◍)<span>');
+            //$('body').html('<span>我要开始咯，虽然不知道要开始干嘛(◍ ´꒳` ◍)<span>');
         });
     });
 });
