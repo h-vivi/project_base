@@ -9,11 +9,6 @@ require.config({
 
     paths: {
         zepto: 'js/libs/zepto',
-    },
-    shim: {
-        'zepto': {
-            exports: 'zepto'
-        }
     }
 });
 
