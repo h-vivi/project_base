@@ -21,14 +21,15 @@ var controllerPath = '../js/controller/' + controllerName + '.js';
 
 require([ 'zepto' ], function($) {
     require([ controllerPath ], function(ctrl) {
-        console.log('controller is', ctrl);
-        console.log('controller exec result is', ctrl());
         setTimeout(function() {
-            //$('body').html('<span>我要开始咯，虽然不知道要开始干嘛(◍ ´꒳` ◍)<span>');
+            // 子薇卡哇伊
+            // $('body').html('<span>我要开始咯，虽然不知道要开始干嘛(◍ ´꒳` ◍)<span>');
         });
     });
 });
 
+
+// set Error handler
 require.onError = function(err) {
     console.error(err);
 }

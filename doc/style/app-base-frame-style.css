@@ -1,0 +1,65 @@
+/*!
+ * base frame styles of app
+ * ranran[vivi] & bq-hentai | 02/02/2017
+ */
+
+/* outer style */
+#app {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#app .app-header {
+
+}
+
+#app .app-body {
+
+}
+
+#app .app-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* header partion */
+.app-header {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+/* body partion */
+.app-body {
+	height: calc(100% - 40px - 40px);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* footer partion */
+.app-footer {
+	height: 40px;
+	line-height: 40px;
+}
+
+.app-footer-list {
+	display: flex;
+	/* if the item's total width is 100%, the following style is not necessary. */
+	justify-content: space-between;
+}
+
+.app-footer-list .app-footer-list-item {
+	width: 25%;
+	text-align: center;
+}
+
+.app-footer-list-item .app-footer-link {
+	display: inline-block;
+	width: 80%;
+	cursor: pointer;
+}
+

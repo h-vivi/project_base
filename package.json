@@ -1,0 +1,30 @@
+{
+  "name": "project_base",
+  "version": "1.0.0",
+  "description": "A base structure of some project.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-vivi/project_base.git"
+  },
+  "keywords": [
+    "bq-hentai",
+    "vivi"
+  ],
+  "author": "bq-hentai vivi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-vivi/project_base/issues"
+  },
+  "homepage": "https://github.com/h-vivi/project_base#readme"
+}
