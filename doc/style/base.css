@@ -71,6 +71,10 @@ a:active {
 	text-decoration: none;
 }
 
+html {
+	font-family: Consolas, 'Microsoft YaHei', sans-serif, serif;
+}
+
 html,
 body {
 	height: 100%;
