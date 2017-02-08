@@ -4,7 +4,7 @@ var rjs$ = require('gulp-requirejs');
 var sourcemaps$ = require('gulp-sourcemaps');
 var gulpFileInclude$ = require('gulp-file-include');
 
-gulp$.task('default', function(){
+gulp$.task('loverr', function(){
     console.log('I love ranran.');
 });
 
@@ -37,7 +37,7 @@ gulp$.task('rjs-build', function(){
 
         removeCombined: true,
 
-        out: 'index.bundle.js',
+        out: 'js/index.bundle.js',
         generateSourceMaps: true,
 
         paths: {
@@ -50,8 +50,22 @@ gulp$.task('rjs-build', function(){
 });
 
 gulp$.task('include-common-template-files', function() {
-    gulp.src('./html/*.html')
+    gulp$.src('./src/page/*.html')
         .pipe(gulpFileInclude$({
-            prefix: '@@'
-        }));
+            prefix: '@@',
+            basepath: './src/templates'
+        }))
+        .pipe(gulp$.dest('./dist/page'));
+});
+
+gulp$.task('gulp-clean-css', function() {
+
+});
+
+gulp$.task('clean-dist', function() {
+
+});
+
+gulp$.task('default', [ 'clean-dist', 'clean-css', 'include-common-template-files', 'rjs-build' ], function() {
+    
 });

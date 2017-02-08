@@ -1,5 +1,5 @@
 <!--
- - index page
+ - app header template
  - ranran[vivi] & bq-hentai | 02/08/2017
  -->
 
