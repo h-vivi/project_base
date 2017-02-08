@@ -9,7 +9,9 @@
   "dependencies": {
     "normalize.css": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
   "scripts": {
     "test": "test"
   },
