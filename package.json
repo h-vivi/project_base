@@ -10,7 +10,9 @@
     "normalize.css": "^5.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-requirejs": "^1.0.0-rc1",
+    "gulp-sourcemaps": "^2.4.1"
   },
   "scripts": {
     "test": "test"
